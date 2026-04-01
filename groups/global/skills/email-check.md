@@ -22,15 +22,23 @@ Default: *pass through*. False positives over false negatives.
 
 For each email that passes the noise filter, classify using these questions:
 
-1. Is this person *directly asking Nathan* to do something, or is he just in the loop?
-2. Is there a *real deadline* with consequences, or manufactured urgency?
+1. Is this person **directly asking Nathan** to do something, or is he just in the loop?
+2. Is there a **real deadline with consequences**, or manufactured urgency?
 3. Could Nathan ignore this for a week with no consequence? If yes, FYI at best.
-4. Is Nathan the *decision-maker*, or is someone else driving?
+4. Is Nathan the **decision-maker**, or is someone else driving?
 
-Classifications:
-- *action-needed* — directly asked to do something with real consequence for delay
-- *fyi* — useful to know, no action required now
-- *skip* — noise that passed first pass but doesn't warrant surfacing
+**action-needed** — someone is directly asking Nathan to do or decide something, and delay has real consequences. The bar is high: a vague "thoughts?" is FYI, not action-needed.
+
+**fyi** — useful to know, no action required now. This includes:
+- Opportunities with deadlines (co-investment offers, event RSVPs) — unless Nathan specifically asked to be reminded
+- Team members doing expected work (adding tokens, deploying, updating content)
+- Informational updates where Nathan is CC'd or in the loop
+- Status updates on processes others are driving
+
+**skip** — noise that passed first pass but doesn't warrant surfacing. This includes:
+- Agent/system notifications (fine-tuning jobs, CI/CD, automated alerts from tools Nathan built)
+- Service notifications for services Nathan doesn't personally manage
+- Marketing from SaaS tools
 
 Synopses must contain full context — Nathan should be able to act from the synopsis without opening Gmail. Include: who's asking, what they want, any deadline, and what Nathan needs to do.
 
