@@ -412,6 +412,7 @@ async function runQuery(
         'mcp__nanoclaw__*',
         'mcp__gmail__*',
         'mcp__gcal__*',
+        'mcp__rag__*',
       ],
       env: sdkEnv,
       permissionMode: 'bypassPermissions',

@@ -82,13 +82,10 @@ Learn silently. Save to knowledge files. Never store secrets.
 
 When you don't know something or need to verify a fact:
 1. `context.md` has the hot cache — check it first (already loaded)
-2. For a person: read `comms/vips.md` (has ~90 contacts by domain and name)
-3. For a project: read the specific file in `projects/`
-4. For personal facts: read `me.md`, `family.md`, or `travel.md`
-5. For email history: search via `mcp__gmail__search_messages`
-6. For recent interactions: read `comms/state.md` surfaced log
+2. **Semantic search:** call `mcp__rag__search_documents(query: "your question")` to find relevant knowledge across all files
+3. For email history: search via `mcp__gmail__search_messages`
 
-If a question mentions a name, project, or term not in `context.md`, **read the relevant file before answering**. Getting it wrong is worse than taking an extra second to look it up.
+If a question mentions a name, project, or term not in `context.md`, **search before answering**. Getting it wrong is worse than taking an extra second to look it up.
 
 ## Task Capture
 

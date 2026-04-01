@@ -5,7 +5,7 @@ description: Timestamps and logs for communication channel checks
 
 ## Email
 
-last_checked: 2026-04-01T01:58:04Z
+last_checked: 2026-04-01T03:33:25Z
 
 ## Surfaced Log
 
@@ -54,6 +54,12 @@ last_checked: 2026-04-01T01:58:04Z
 | 2026-04-01T01:49:57Z | action-needed | 19d46bbab708bc96 | Icehouse Ventures | Capital call for Odyssey: $5,100 NZD due 8 Apr. Transfer to Icehouse Ventures Nominees Ltd, 02-0240-0061849-025, Particulars: NathanJohnDo, Code: Odyssey, Ref: E5735. | pending |
 | 2026-03-31T21:10:34Z | action-needed | 19d45bbe387e3159 | ApprovalMax | Two new bills pending: INV-000355 from Lacuna + Co (NZD 467.25, EONZ) and INV-0659 from Auctus Media (NZD 250, EONZ). | pending |
 | 2026-04-01T01:58:04Z | fyi | 19d46e4d048a7d1b | OpenAI | ChatGPT Business (Boost, 24 seats) renews 7 April 2026. | unknown |
+| 2026-04-01T01:42:30Z | action-needed | 19d46b4d6e8c2b4e | Robbie Paul (Icehouse Ventures) | Co-invest opportunity in Odyssey US$325m Series B (AI world simulation, backed by Google/Nvidia/DCVC). Separate from existing $5,100 capital call. Decision and payment by 8 April. Review on Icehouse Portal. | pending |
+| 2026-04-01T02:44:18Z | fyi | 19d42018575ba7e5 | Tracy Angwin / Phil Bull | Regional USD 10,000 invoice — Tracy chased EO regional, was told it'll be sorted today. Phil acknowledged. No action needed from Nathan. | pending |
+| 2026-04-01T03:23:49Z | fyi | 19d2d4b1645c706d | Paula Nightingale | Sent Sydney chapter's arrears process doc. Unblocks policy work — Nathan can now collate feedback and draft policy for next board meeting. | pending |
+| 2026-04-01T03:30:01Z | action-needed | 19d426c0ca1272f0 | Paula Nightingale / Katie Noble | GLC Dublin reimbursement: both Helen Mackay and another claimant submitted $4,202.99 each (6 attendees total). Katie deferred to Nathan as Finance Chair to confirm correct per-person amount. Paula holding payment until 20 Apr. | pending |
+| 2026-04-01T03:32:15Z | action-needed | 19d471955867d7b9 | Sanity | Stephanie Allen added "steph editor" API token to Boost Website project (IP 202.20.4.202 at 03:32 UTC). Verify if authorised — if not, remove Stephanie as collaborator at sanity.io/organizations/oniYEPXfC/project/g8hob8f1/api | pending |
+| 2026-04-01T02:43:03Z | fyi | 19d461846898c8e4 | ASB | Withdrawal $30.60 from Savings On Call at 15:42. Balance: $2,726.63. | unknown |
 | 2026-03-31T20:16:10Z | fyi | 19d458a17a9efb5c | Sean Romans | Shared Google Doc: "Gstack Design: Reimagining Supplejack — AI-Native Government Data Aggregation Platform". | unknown |
 | 2026-03-31T21:22:50Z | fyi | 19d45c71ed2444b4 | Claude Team | $2.67 credit issued for erroneous Claude auto mode charge. | unknown |
 | 2026-03-31T20:18:17Z | fyi | 19cbc17a750f5014 | Phil Bull | Regional Council invoice thread resolved — Phil confirmed invoice raised, Nathan acknowledged. | replied |
