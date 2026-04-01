@@ -1,0 +1,2 @@
+{"ts":"2026-03-30T23:16:47.997Z","total":15,"correct":14,"accuracy":93,"mismatches":[{"id":"t8-promo-with-urgency","expected":"action-needed","got":"skip"}]}
+{"ts":"2026-03-30T23:19:06.539Z","total":15,"correct":15,"accuracy":100,"mismatches":[]}

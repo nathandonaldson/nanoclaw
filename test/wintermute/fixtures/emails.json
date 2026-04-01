@@ -1,0 +1,152 @@
+[
+  {
+    "id": "t1-vip-action",
+    "from": "sarah@boost.co.nz",
+    "to": "nathan@boost.co.nz",
+    "subject": "Need your sign-off on the Q2 budget",
+    "body": "Hi Nathan, can you review and approve the Q2 budget by Friday? Finance needs it locked before the board meeting next week.",
+    "category": "PRIMARY",
+    "expected": "action-needed",
+    "reason": "VIP (Boost team), direct ask with real deadline (Friday), Nathan in To"
+  },
+  {
+    "id": "t2-vip-fyi",
+    "from": "steph@boost.co.nz",
+    "to": "nathan@boost.co.nz",
+    "subject": "Website copy updates pushed live",
+    "body": "Hey Nathan, just letting you know the new homepage copy is live. No action needed from you — just FYI in case anyone mentions it.",
+    "category": "PRIMARY",
+    "expected": "fyi",
+    "reason": "VIP (Boost team), explicitly informational, no action required"
+  },
+  {
+    "id": "t3-promo-skip",
+    "from": "promotions@shopify.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "50% off Shopify Plus — upgrade today",
+    "body": "Upgrade your Shopify plan and save 50% for the first 3 months. Limited time offer.",
+    "category": "PROMOTIONS",
+    "expected": "skip",
+    "reason": "Promotional category, not VIP, no urgency signals"
+  },
+  {
+    "id": "t4-noreply-fraud",
+    "from": "noreply@anz.co.nz",
+    "to": "nathan@boost.co.nz",
+    "subject": "Unusual activity detected on your account",
+    "body": "We detected unusual login activity on your ANZ account from an unrecognized device. If this wasn't you, please secure your account immediately.",
+    "category": "PRIMARY",
+    "expected": "action-needed",
+    "reason": "noreply@ with urgency signal (fraud/security), NEVER skip noreply@ senders"
+  },
+  {
+    "id": "t5-eo-board-action",
+    "from": "phil.bull@bluebarn.co.nz",
+    "to": "nathan@boost.co.nz",
+    "subject": "Board vote needed: GLC travel subsidy",
+    "body": "Hi Nathan, we need all board members to vote on the GLC travel subsidy proposal by end of day Wednesday. Please reply with your vote.",
+    "category": "PRIMARY",
+    "expected": "action-needed",
+    "reason": "VIP (EO Board), direct ask, real deadline (Wednesday), vote required"
+  },
+  {
+    "id": "t6-linkedin-social",
+    "from": "notifications@linkedin.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "You have 12 new notifications",
+    "body": "See what's happening in your professional network this week.",
+    "category": "SOCIAL",
+    "expected": "skip",
+    "reason": "Social category, not VIP, no urgency signals"
+  },
+  {
+    "id": "t7-eo-fyi",
+    "from": "paula@eonewzealand.org",
+    "to": "members@eonewzealand.org",
+    "subject": "Forum training dates confirmed",
+    "body": "Hi everyone, the Forum training dates have been confirmed for April 15-16. Full details attached. See you there!",
+    "category": "PRIMARY",
+    "expected": "fyi",
+    "reason": "VIP (EO), informational broadcast, Nathan not in To directly (sent to members list)"
+  },
+  {
+    "id": "t8-promo-with-urgency",
+    "from": "deals@amazon.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "Your order has shipped — action required",
+    "body": "Your recent order #114-3847261 has shipped. Estimated delivery: April 2. You need to confirm your delivery address by clicking the link below.",
+    "category": "PROMOTIONS",
+    "expected": "action-needed",
+    "reason": "Promotional category BUT has urgency signal (action required, order/shipping), should pass noise filter"
+  },
+  {
+    "id": "t9-unknown-cold-email",
+    "from": "alex@randomstartup.io",
+    "to": "nathan@boost.co.nz",
+    "subject": "Quick question about Boost's tech stack",
+    "body": "Hi Nathan, I'm building a developer tool and noticed Boost uses Node.js. Would love 15 minutes of your time to learn about your workflow.",
+    "category": "PRIMARY",
+    "expected": "skip",
+    "reason": "Not VIP, cold outreach, no urgency, no consequence if ignored"
+  },
+  {
+    "id": "t10-family-action",
+    "from": "surfer.sarah@gmail.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "Can you pick up Elliot at 3?",
+    "body": "Hey, I'm stuck at a meeting. Can you grab Elliot from school at 3pm today?",
+    "category": "PRIMARY",
+    "expected": "action-needed",
+    "reason": "VIP (Family, always surface), direct ask, time-sensitive"
+  },
+  {
+    "id": "t11-newsletter-skip",
+    "from": "noreply@substack.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "This week in AI: GPT-5 benchmarks",
+    "body": "A roundup of the biggest AI news this week...",
+    "category": "PROMOTIONS",
+    "expected": "skip",
+    "reason": "Promotional category (newsletter), noreply@ but no urgency signals (fraud/security/deadline/legal)"
+  },
+  {
+    "id": "t12-vip-cc-only",
+    "from": "jeongeel@boost.co.nz",
+    "to": "team@boost.co.nz",
+    "subject": "Sprint planning notes",
+    "body": "Hi team, here are the sprint planning notes from today's session. Action items assigned to each person below.",
+    "category": "PRIMARY",
+    "expected": "fyi",
+    "reason": "VIP (Boost), but Nathan not directly in To, team broadcast, informational"
+  },
+  {
+    "id": "t13-legal-urgency",
+    "from": "no-reply@companiesoffice.govt.nz",
+    "to": "nathan@boost.co.nz",
+    "subject": "Annual return overdue — Boost Digital Ltd",
+    "body": "Your company's annual return is overdue. Failure to file within 20 working days may result in removal from the register.",
+    "category": "PRIMARY",
+    "expected": "action-needed",
+    "reason": "noreply@ with legal/compliance urgency signal, real consequence (company removal)"
+  },
+  {
+    "id": "t14-eo-mentor-fyi",
+    "from": "phil.pietersen@gmail.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "Mentoring programme update",
+    "body": "Hi Nathan, just a heads up that we've pushed the kickoff to post-Easter as planned. No action needed from you yet — I'll send the final schedule next week.",
+    "category": "PRIMARY",
+    "expected": "fyi",
+    "reason": "VIP (EO), explicitly no action needed, informational update"
+  },
+  {
+    "id": "t15-google-workspace-admin",
+    "from": "noreply@google.com",
+    "to": "nathan@boost.co.nz",
+    "subject": "Security alert: new sign-in from Chrome on Mac",
+    "body": "A new sign-in to your Google Account was detected. If this was you, no action is needed.",
+    "category": "PRIMARY",
+    "expected": "fyi",
+    "reason": "noreply@ with security signal, but explicitly says no action needed if recognized — FYI not action-needed"
+  }
+]
