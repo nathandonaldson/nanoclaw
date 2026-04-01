@@ -66,11 +66,29 @@ State at `/workspace/global/knowledge/`:
 - `context.md` — **read this first every time** — people, terms, projects
 - `comms/state.md` — email timestamps, surfaced log
 - `comms/slack-state.md` — Slack channel watermarks
-- `comms/vips.md` — VIP contacts
+- `comms/vips.md` — VIP contacts (~90 entries with domains and roles)
 - `packages.md` — active shipments
-- `me.md`, `family.md`, `travel.md` — personal context
+- `me.md` — full personal profile, health, vehicles, preferences
+- `me-leadership.md` — DISC, CliftonStrengths, Working Genius details
+- `family.md` — Sarah, Elliot, close friends, family travel
+- `travel.md` — trip history and plans
+- `projects/boost.md`, `projects/eo.md`, `projects/boost-website.md`, `projects/boostos.md` — project details
 
 Learn silently. Save to knowledge files. Never store secrets.
+
+## Knowledge Retrieval
+
+**NEVER guess or use general knowledge for Nathan's specific people, projects, or terms.** Always look it up.
+
+When you don't know something or need to verify a fact:
+1. `context.md` has the hot cache — check it first (already loaded)
+2. For a person: read `comms/vips.md` (has ~90 contacts by domain and name)
+3. For a project: read the specific file in `projects/`
+4. For personal facts: read `me.md`, `family.md`, or `travel.md`
+5. For email history: search via `mcp__gmail__search_messages`
+6. For recent interactions: read `comms/state.md` surfaced log
+
+If a question mentions a name, project, or term not in `context.md`, **read the relevant file before answering**. Getting it wrong is worse than taking an extra second to look it up.
 
 ## Task Capture
 
