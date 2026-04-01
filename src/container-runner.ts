@@ -96,6 +96,16 @@ function buildVolumeMounts(
       containerPath: '/workspace/group',
       readonly: false,
     });
+
+    // Global memory directory (writable for main — enables self-improving skills)
+    const globalDir = path.join(GROUPS_DIR, 'global');
+    if (fs.existsSync(globalDir)) {
+      mounts.push({
+        hostPath: globalDir,
+        containerPath: '/workspace/global',
+        readonly: false,
+      });
+    }
   } else {
     // Other groups only get their own folder
     mounts.push({
@@ -174,6 +184,24 @@ function buildVolumeMounts(
       hostPath: gmailDir,
       containerPath: '/home/node/.gmail-mcp',
       readonly: false, // MCP may need to refresh OAuth tokens
+    });
+  }
+
+  // Google Calendar MCP — mount OAuth keys and token store
+  const gcalMcpDir = path.join(homeDir, '.gcal-mcp');
+  if (fs.existsSync(gcalMcpDir)) {
+    mounts.push({
+      hostPath: gcalMcpDir,
+      containerPath: '/home/node/.gcal-mcp',
+      readonly: true,
+    });
+  }
+  const gcalTokenDir = path.join(homeDir, '.config', 'google-calendar-mcp');
+  if (fs.existsSync(gcalTokenDir)) {
+    mounts.push({
+      hostPath: gcalTokenDir,
+      containerPath: '/home/node/.config/google-calendar-mcp',
+      readonly: true,
     });
   }
 
