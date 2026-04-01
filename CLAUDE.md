@@ -75,6 +75,10 @@ systemctl --user restart nanoclaw
 
 **WhatsApp not connecting after upgrade:** WhatsApp is now a separate skill, not bundled in core. Run `/add-whatsapp` (or `npx tsx scripts/apply-skill.ts .claude/skills/add-whatsapp && npm run build`) to install it. Existing auth credentials and groups are preserved.
 
+## Knowledge Sync
+
+Run `/sync-knowledge` after updating knowledge in the Wintermute project (`~/Documents/wintermute-claude`). It pulls both repos, copies knowledge files into NanoClaw's global directory, re-indexes the RAG search engine, and restarts the service with fresh sessions.
+
 ## gstack
 
 Use `/browse` from gstack for **all web browsing**. Never use `mcp__claude-in-chrome__*` tools.

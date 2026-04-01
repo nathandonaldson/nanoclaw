@@ -5,7 +5,7 @@ description: Timestamps and logs for communication channel checks
 
 ## Email
 
-last_checked: 2026-04-01T03:33:25Z
+last_checked: 2026-04-01T22:43:27Z
 
 ## Surfaced Log
 
@@ -39,30 +39,23 @@ last_checked: 2026-04-01T03:33:25Z
 | 2026-03-27T15:10:00Z | action-needed | 19d2cb43470d05b1 | Andrew Butel (Telos) | AGM 4pm Mon 30 March, Level 4 40 Taranaki St. Resolutions + FY25 financials attached. Teams link for remote. | actioned-outside-email |
 | 2026-03-27T16:30:00Z | action-needed | 19d2d5844f988e3d | Clockworx Payroll | March 2026 EONZ payroll posted. Bank file coming for authorisation (Nathan + Phil). | replied |
 | 2026-03-28T09:16:00Z | action-needed | 19d2db6787fab92d | NZTA | Driver licence BM306350 due for renewal. Online or AA centre. | pending |
-| 2026-03-28T09:16:00Z | action-needed | 19d308d5929de846 | Katie Noble | Feedback on arrears policy: copy Member Engagement Chair on 15 July final notice + phone call to try save member. | replied |
+| 2026-03-28T09:16:00Z | action-needed | 19d308d5929de846 | Katie Noble | Feedback on arrears policy: copy Member Engagement Chair on 15 July final notice + phone call to try save member. Nathan replied 1 Apr acknowledging + waiting on Paula for more regional data (Sydney doc received). | pending |
 | 2026-03-28T09:16:00Z | fyi | 19d31038e6978a9e | Boardertown | Order #143876 confirmed (preorder, ships when available). | pending |
 | 2026-03-28T09:16:00Z | fyi | 19d2e599fa97b272 | JAUCE | Auction items shipped from Japan warehouse. | pending |
-| 2026-03-28T20:31:00Z | fyi | 19d339218f049e9f | Daniel Mulholland (APL Property) | Forte BC invoice INV-7117, $335.68 due 1 April 2026. Daniel confirmed: $335.68 until 31 May, then increases per 2025 AGM schedule. | replied |
-| 2026-03-28T20:31:00Z | fyi | 19d2d4b1645c706d | Helen Mackay | Agrees with Katie's arrears policy feedback. Trimmed CC list. | replied |
-| 2026-03-31T00:24:40Z | action-needed | 19d41473f71eae13 | Shortcut | Nathan's role on Boost's Shortcut changed from Owner to Non-owner. Investigate — contact support@shortcut.com if not intentional. | pending |
-| 2026-03-31T00:36:10Z | fyi | 19d41520a7a65fbb | ASB | Withdrawals today: $253.19 at 13:35 + $73.78 at 15:05. Balance: $914.33. | unknown |
-| 2026-03-31T02:03:24Z | action-needed | 19d41a1a60a8cfe2 | Apple Developer | Developer Program License Agreement updated. Must accept by 15 April 2026 to retain access to Certificates, App Store Connect, etc. | pending |
-| 2026-03-30T23:11:44Z | action-needed | 19d4104776f50d26 | ApprovalMax (EONZ Accounts) | Additional bill IV00000001111 from Your Private Chef Limited — Verne Harnish Event catering, needs early payment. Approve in ApprovalMax. | pending |
-| 2026-03-31T19:32:27Z | action-needed | 19d45620e93a2733 | Robbie Paul (Icehouse Ventures) | Investor dinner invite — Tue 21 Apr, 6-9pm, Prefab Hall, 14 Jessie St Wellington. RSVP required. | pending |
-| 2026-03-31T12:10:36Z | action-needed | 19d43cd914c0c5b4 | ClockworX | EONZ invoice #INV-7529, ~$1,797.65, due 1 April 2026. | pending |
-| 2026-03-31T20:37:41Z | action-needed | 19c889fd2f60ba95 | Paula Nightingale | Submitted EO Hub dues form with wrong option ("Chapter collects local; global collects global"). Asking if she should amend to "Chapter collects both". Needs Nathan's decision. | replied |
-| 2026-04-01T01:49:57Z | action-needed | 19d46bbab708bc96 | Icehouse Ventures | Capital call for Odyssey: $5,100 NZD due 8 Apr. Transfer to Icehouse Ventures Nominees Ltd, 02-0240-0061849-025, Particulars: NathanJohnDo, Code: Odyssey, Ref: E5735. | pending |
-| 2026-03-31T21:10:34Z | action-needed | 19d45bbe387e3159 | ApprovalMax | Two new bills pending: INV-000355 from Lacuna + Co (NZD 467.25, EONZ) and INV-0659 from Auctus Media (NZD 250, EONZ). | pending |
-| 2026-04-01T01:58:04Z | fyi | 19d46e4d048a7d1b | OpenAI | ChatGPT Business (Boost, 24 seats) renews 7 April 2026. | unknown |
-| 2026-04-01T01:42:30Z | action-needed | 19d46b4d6e8c2b4e | Robbie Paul (Icehouse Ventures) | Co-invest opportunity in Odyssey US$325m Series B (AI world simulation, backed by Google/Nvidia/DCVC). Separate from existing $5,100 capital call. Decision and payment by 8 April. Review on Icehouse Portal. | pending |
-| 2026-04-01T02:44:18Z | fyi | 19d42018575ba7e5 | Tracy Angwin / Phil Bull | Regional USD 10,000 invoice — Tracy chased EO regional, was told it'll be sorted today. Phil acknowledged. No action needed from Nathan. | pending |
-| 2026-04-01T03:23:49Z | fyi | 19d2d4b1645c706d | Paula Nightingale | Sent Sydney chapter's arrears process doc. Unblocks policy work — Nathan can now collate feedback and draft policy for next board meeting. | pending |
-| 2026-04-01T03:30:01Z | action-needed | 19d426c0ca1272f0 | Paula Nightingale / Katie Noble | GLC Dublin reimbursement: both Helen Mackay and another claimant submitted $4,202.99 each (6 attendees total). Katie deferred to Nathan as Finance Chair to confirm correct per-person amount. Paula holding payment until 20 Apr. | pending |
-| 2026-04-01T03:32:15Z | action-needed | 19d471955867d7b9 | Sanity | Stephanie Allen added "steph editor" API token to Boost Website project (IP 202.20.4.202 at 03:32 UTC). Verify if authorised — if not, remove Stephanie as collaborator at sanity.io/organizations/oniYEPXfC/project/g8hob8f1/api | pending |
-| 2026-04-01T02:43:03Z | fyi | 19d461846898c8e4 | ASB | Withdrawal $30.60 from Savings On Call at 15:42. Balance: $2,726.63. | unknown |
-| 2026-03-31T20:16:10Z | fyi | 19d458a17a9efb5c | Sean Romans | Shared Google Doc: "Gstack Design: Reimagining Supplejack — AI-Native Government Data Aggregation Platform". | unknown |
-| 2026-03-31T21:22:50Z | fyi | 19d45c71ed2444b4 | Claude Team | $2.67 credit issued for erroneous Claude auto mode charge. | unknown |
-| 2026-03-31T20:18:17Z | fyi | 19cbc17a750f5014 | Phil Bull | Regional Council invoice thread resolved — Phil confirmed invoice raised, Nathan acknowledged. | replied |
+| 2026-03-28T20:31:00Z | fyi | 19d339218f049e9f | Daniel Mulholland (APL Property) | Forte BC invoice INV-7117, $335.68 due 1 April 2026. | pending |
+| 2026-03-28T20:31:00Z | fyi | 19d2d4b1645c706d | Helen Mackay | Agrees with Katie's arrears policy feedback. Trimmed CC list. | pending |
+| 2026-04-01T03:30:01Z | action-needed | 19d426c0ca1272f0 | Paula Nightingale | GLC Dublin reimbursements: Helen Mackay + one other both claiming $4,202.99. Katie says Nathan should approve as Finance Chair (6 attendees). Paula held payment until 20 April. Confirm correct per-person subsidy ($1,833/person = $11k ÷ 6). | pending |
+| 2026-04-01T16:53:38Z | action-needed | 19d49f71613593ba | Katie Noble | Re: GLC reimbursement — Katie asking Nathan to confirm correct per-person subsidy amount. Budget is $11,000 for 6 attendees = $1,833/person. Claims of $4,202.99 each are too high. Reply to Katie + Paula. | pending |
+| 2026-04-01T14:02:34Z | fyi | 19d495a69a73354f | JAUCE (noreply) | Package delivered. Packing feedback request triggered. JAUCE items now in Delivered. | pending |
+| 2026-04-01T08:26:17Z | fyi | 19d482689b2b1754 | Pro Standard | Order #15008439 shipped: Step On® Push Button Quick Release × 2 (right, black), $192 NZD. USPS Small Packet International Air. | pending |
+| 2026-04-01T13:31:40Z | fyi | 19d493e2294d09d4 | HubSpot (noreply) | Automated inactive user deactivation in Boost HubSpot on 30 April 2026. Heads-up for team. | pending |
+| 2026-04-01T22:43:27Z | fyi | 19d4b37478d90928 | Icehouse Ventures | $5,100 investment in Odyssey confirmed (1 Apr). $5k committed + $100 fees, fully paid. Shares/notes may take 1–3 months to issue. | pending |
+| 2026-04-01T03:23:49Z | action-needed | 19d2d4b1645c706d | Paula Nightingale | Dues Collection: Paula submitted EO Hub form with wrong option ("Chapter collects local; global collects global"). Should be "Chapter collects both." Needs confirmation to amend. | actioned — Nathan replied 31 Mar confirming proceed with "Chapter collects both" for renewals |
+| 2026-03-31T20:37:41Z | fyi | 19c889fd2f60ba95 | Paula Nightingale | Dues collection form submitted with wrong option — awaiting Nathan's confirmation to amend to "Chapter collects both." | actioned |
+| 2026-04-01T02:51:15Z | fyi | 19d42018575ba7e5 | Phil Bull / Tracy Angwin | USD 10k invoice to regional council: Tracy says it'll be sorted today (1 Apr). Phil acknowledged. No action needed. | pending |
+| 2026-04-01T01:00:10Z | fyi | 19d468e8cdecf567 | Phil Bull | Paula's pay approval timing — Phil checking with Katrina. No action for Nathan. | pending |
+| 2026-04-01T08:32:27Z | fyi | 19d45620e93a2733 | Robbie Paul (Icehouse) | Investor dinner invite: 21 April 6-9pm, Prefab Hall Wellington. RSVP required, limited space. | pending |
+| 2026-04-01T10:33:11Z | fyi | 19d45d0fbf5a9088 | Phil Hartshorn (Dunedin Guitar) | 2026 No Lesson Days calendar sent. Also: no lessons Easter weekend. | pending |
 
 ## Classification Lessons
 
@@ -70,3 +63,4 @@ Log patterns here when classifications prove wrong. The self-reflection loop use
 
 | date | type | detail |
 |------|------|--------|
+| 2026-04-01 | missed-reply | Flagged Paula dues collection as pending action — Nathan had already replied 31 Mar. Must search sent mail (from:nathan) for replies to surfaced threads before marking them action-needed. |
