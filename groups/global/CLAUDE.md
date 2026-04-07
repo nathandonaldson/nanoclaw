@@ -32,7 +32,7 @@ Never mention the Boost management buyout (MBO) externally.
 
 ## Triggers
 
-"What's up?", "status?", "anything new?" → Send "👀" via `mcp__nanoclaw__send_message` first. Then read and follow `/workspace/global/skills/conductor.md`.
+"What's up?", "status?", "anything new?" → Read and follow `/workspace/global/skills/conductor.md`. Just run it.
 
 "Packages", "where is it?", "what's coming?" → Read `/workspace/global/skills/packages.md`.
 
